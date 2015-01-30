@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v&quot; into library work</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">33</arg>. <arg fmt="%s" index="3">Syntax error near &quot;#&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">38</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">40</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">41</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">48</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">50</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">59</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">61</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">62</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">69</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">71</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">72</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">80</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">82</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">83</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">90</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">92</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">93</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">101</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">103</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">104</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">111</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">113</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">114</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">122</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">124</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">125</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">132</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">134</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU16bTest.v</arg>&quot; Line <arg fmt="%d" index="2">135</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v&quot; into library work</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">41</arg>. <arg fmt="%s" index="3">Syntax error near &quot;#&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">48</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">50</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">60</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">62</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">63</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">75</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">76</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">85</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">87</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">88</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">97</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">99</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">100</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">109</arg>. <arg fmt="%s" index="3">Syntax error near &quot;&amp;&amp;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">112</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">113</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">121</arg>. <arg fmt="%s" index="3">Syntax error near &quot;&amp;&amp;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">124</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">125</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">133</arg>. <arg fmt="%s" index="3">Syntax error near &quot;&amp;&amp;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">136</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">137</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">146</arg>. <arg fmt="%s" index="3">Syntax error near &quot;&amp;&amp;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">149</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">150</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">158</arg>. <arg fmt="%s" index="3">Syntax error near &quot;&amp;&amp;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">161</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">162</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">172</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">174</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">175</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">184</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">186</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/ALU1bTest.v</arg>&quot; Line <arg fmt="%d" index="2">187</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v&quot; into library work</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">34</arg>. <arg fmt="%s" index="3">Syntax error near &quot;#&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">38</arg>. <arg fmt="%s" index="3">Syntax error near &quot;&amp;&amp;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">41</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">42</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">48</arg>. <arg fmt="%s" index="3">Syntax error near &quot;&amp;&amp;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. <arg fmt="%s" index="3">Syntax error near &quot;&amp;&amp;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">61</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">62</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">68</arg>. <arg fmt="%s" index="3">Syntax error near &quot;&amp;&amp;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">71</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">72</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">78</arg>. <arg fmt="%s" index="3">Syntax error near &quot;&amp;&amp;&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">81</arg>. <arg fmt="%s" index="3">Syntax error near &quot;$display&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/benshorm/Documents/Classes/3.1/CSSE 232/Labs/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/XlilinxProject/ALU16b/AdderTest.v</arg>&quot; Line <arg fmt="%d" index="2">82</arg>. <arg fmt="%s" index="3">Syntax error near &quot;end&quot;.</arg>
+</msg>
+
+</messages>
+

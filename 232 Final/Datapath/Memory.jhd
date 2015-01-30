@@ -1,0 +1,3 @@
+MODULE Memory
+	SUBMODULE mem16x10_block
+		INSTANCE XLXI_1

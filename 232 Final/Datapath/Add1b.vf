@@ -1,0 +1,54 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 13.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Add1b.vf
+// /___/   /\     Timestamp : 11/17/2014 15:26:44
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Add1b.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Add1b.sch
+//Design Name: Add1b
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Add1b(A, 
+             B, 
+             Ci, 
+             Co, 
+             R);
+
+    input A;
+    input B;
+    input Ci;
+   output Co;
+   output R;
+   
+   wire XLXN_35;
+   wire XLXN_37;
+   wire XLXN_38;
+   
+   XOR2  XLXI_21 (.I0(B), 
+                 .I1(A), 
+                 .O(XLXN_35));
+   XOR2  XLXI_22 (.I0(Ci), 
+                 .I1(XLXN_35), 
+                 .O(R));
+   AND2  XLXI_23 (.I0(Ci), 
+                 .I1(XLXN_35), 
+                 .O(XLXN_37));
+   AND2  XLXI_24 (.I0(A), 
+                 .I1(B), 
+                 .O(XLXN_38));
+   OR2  XLXI_25 (.I0(XLXN_38), 
+                .I1(XLXN_37), 
+                .O(Co));
+endmodule

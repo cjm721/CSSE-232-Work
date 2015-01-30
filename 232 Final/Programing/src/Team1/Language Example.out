@@ -1,0 +1,36 @@
+TestLabel:
+bneC $5 $6 CompilerIfLabel0
+j TestLabel
+CompilerIfLabel0:
+beqC $5 $6 CompilerIfLabel1
+addi $sp -2
+sw $ra $sp 0
+addi $sp -8
+sw $7 $sp 0
+sw $8 $sp 1
+sw $9 $sp 2
+sw $10 $sp 3
+sw $11 $sp 4
+sw $12 $sp 5
+sw $13 $sp 6
+sw $14 $sp 7
+addi $sp -2
+sw $15 $sp 0
+or $0 $5 $a0
+or $0 $6 $a1
+jal GCD
+lw $s15 $sp 0
+addi $sp 2
+lw $7 $sp 0
+lw $8 $sp 1
+lw $9 $sp 2
+lw $10 $sp 3
+lw $11 $sp 4
+lw $12 $sp 5
+lw $13 $sp 6
+lw $14 $sp 7
+addi $sp 8
+lw $ra $sp 0
+addi $sp 2
+j $ra
+j $ra

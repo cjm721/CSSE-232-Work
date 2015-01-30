@@ -1,0 +1,40 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 13.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ShiftControlModule.vf
+// /___/   /\     Timestamp : 11/17/2014 15:26:46
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftControlModule.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftControlModule.sch
+//Design Name: ShiftControlModule
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ShiftControlModule(B, 
+                          Out2);
+
+    input [15:0] B;
+   output [15:0] Out2;
+   
+   
+   BUF  XLXI_1 (.I(B[0]), 
+               .O(Out2[0]));
+   BUF  XLXI_2 (.I(B[1]), 
+               .O(Out2[1]));
+   BUF  XLXI_3 (.I(B[2]), 
+               .O(Out2[2]));
+   BUF  XLXI_4 (.I(B[3]), 
+               .O(Out2[3]));
+   BUF  XLXI_5 (.I(B[4]), 
+               .O(Out2[4]));
+endmodule

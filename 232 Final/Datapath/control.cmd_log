@@ -1,0 +1,16 @@
+vhdtdtfi -lib work C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Control2.v -lang verilog -prj Datapath -o control.spl -module control -template C:/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/control.sym 
+vhdtdtfi -lib work C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Control2.v -lang verilog -prj Datapath -o control.spl -module control -template C:/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/control.sym 
+vhdtdtfi -lib work C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Control2.v -lang verilog -prj Datapath -o control.spl -module control -template C:/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/control.sym 
+vhdtdtfi -lib work C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Control2.v -lang verilog -prj Datapath -o control.spl -module control -template C:/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/control.sym 
+vhdtdtfi -lib work C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Control2.v -lang verilog -prj Datapath -o control.spl -module control -template C:/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/control.sym 
+vhdtdtfi -lib work C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Control2.v -lang verilog -prj Datapath -o control.spl -module control -template C:/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/control.sym 
+vhdtdtfi -lib work C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Control2.v -lang verilog -prj Datapath -o control.spl -module control -template C:/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/control.sym 
+vhdtdtfi -lib work C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Control2.v -lang verilog -prj Datapath -o control.spl -module control -template C:/Xilinx/13.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/control.sym 

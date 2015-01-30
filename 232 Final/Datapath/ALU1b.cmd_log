@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -verilog ALU1b_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/ALU1b.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog ALU1b_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ALU1b.sch 

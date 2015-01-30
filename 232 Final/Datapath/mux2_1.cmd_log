@@ -1,0 +1,5 @@
+sch2sym -intstyle ise -family spartan3e -refsym mux2_1 C:/Users/millerlj/Documents/CSSE232/ALU16b/mux2_1.sch C:/Users/millerlj/Documents/CSSE232/Datapath/mux2_1.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog mux2_1_drc.vf -w C:/Users/millerlj/Documents/CSSE232/ALU16b/mux2_1.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog mux2_1_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/mux2_1.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog mux2_1_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/mux2_1.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog mux2_1_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/mux2_1.sch 

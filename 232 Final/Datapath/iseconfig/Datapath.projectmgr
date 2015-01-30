@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Datapath" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU16b C:|Users|millerlj|Documents|CSSE232|Datapath|ALU16b.sch</ClosedNode>
+         <ClosedNode>/ALU16b |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ALU16b.sch</ClosedNode>
+         <ClosedNode>/ALU1b C:|Users|millerlj|Documents|CSSE232|Datapath|ALU1b.sch</ClosedNode>
+         <ClosedNode>/ALUControl C:|Users|millerlj|Documents|CSSE232|Datapath|ALUControl.sch</ClosedNode>
+         <ClosedNode>/ALUcomp C:|Users|millerlj|Documents|CSSE232|Datapath|ALUcomp.sch</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_24 - RegComp</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_67 - Memory</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_73 - ALUControl</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_19 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_20 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_21 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_22 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_23 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_24 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_25 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_26 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_27 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_28 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_29 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_30 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_31 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_32 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_33 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_34 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_74 - ALU16b/XLXI_39 - Shifter</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_84 - RegComp</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_84 - RegComp/XLXI_5 - RegFile</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_85 - mux8x16</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_89 - memWrapper</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_1 - MulticycleALU</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_20 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_21 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_22 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_23 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_24 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_25 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_26 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_27 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_28 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_29 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_30 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_31 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_32 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_33 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_34 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_39 - Shifter</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_1 - MulticycleALU/XLXI_8 - ALUControl</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_1 - MulticycleALU/XLXI_9 - ALUControl</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_19 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_20 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_21 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_22 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_23 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_24 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_25 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_26 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_27 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_28 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_29 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_30 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_31 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_32 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_33 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_34 - ALU1b</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_39 - Shifter/XLXI_3 - ShiftLeft</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_39 - Shifter/XLXI_8 - ShiftRightL</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_1 - ALUcomp/XLXI_2 - ALU16b/XLXI_39 - Shifter/XLXI_9 - ShiftRightA</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_24 - RegComp</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch/XLXI_67 - Memory</ClosedNode>
+         <ClosedNode>/MulticycleALU C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|MulticycleALU.sch</ClosedNode>
+         <ClosedNode>/MulticycleALU C:|Users|millerlj|Documents|CSSE232|Datapath|MulticycleALU.sch</ClosedNode>
+         <ClosedNode>/MulticycleALU |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|MulticycleALU.sch</ClosedNode>
+         <ClosedNode>/ShiftLeft C:|Users|millerlj|Documents|CSSE232|Datapath|ShiftLeft.sch</ClosedNode>
+         <ClosedNode>/ShiftRA16b C:|Users|millerlj|Documents|CSSE232|Datapath|ShiftRA16b.sch</ClosedNode>
+         <ClosedNode>/ShiftRA8b C:|Users|millerlj|Documents|CSSE232|Datapath|ShiftRA8b.sch/XLXI_1 - ShiftRA4b</ClosedNode>
+         <ClosedNode>/ShiftRA8b C:|Users|millerlj|Documents|CSSE232|Datapath|ShiftRA8b.sch/XLXI_2 - ShiftRA4b</ClosedNode>
+         <ClosedNode>/ShiftRightA C:|Users|millerlj|Documents|CSSE232|Datapath|ShiftRightA.sch</ClosedNode>
+         <ClosedNode>/ShiftRightL C:|Users|millerlj|Documents|CSSE232|Datapath|ShiftRightL.sch</ClosedNode>
+         <ClosedNode>/Shifter C:|Users|millerlj|Documents|CSSE232|Datapath|Shifter.sch</ClosedNode>
+         <ClosedNode>/Shiftl16b C:|Users|millerlj|Documents|CSSE232|Datapath|Shiftl16b.sch/XLXI_1 - shiftl8b</ClosedNode>
+         <ClosedNode>/Shiftl16b C:|Users|millerlj|Documents|CSSE232|Datapath|Shiftl16b.sch/XLXI_2 - shiftl8b/XLXI_1 - Shiftl4b</ClosedNode>
+         <ClosedNode>/Shiftl16b C:|Users|millerlj|Documents|CSSE232|Datapath|Shiftl16b.sch/XLXI_2 - shiftl8b/XLXI_2 - Shiftl4b/XLXI_1 - shiftl2b</ClosedNode>
+         <ClosedNode>/mux8x16 C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|mux8x16.sch</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>FullDatapath (C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sch)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c3000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c30000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>FullDatapath (C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sch)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000184000000010000000100000000000000000000000064ffffffff000000810000000000000001000001840000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000001cf000000040101000100000000000000000000000064ffffffff000000810000000000000004000000ce0000000100000000000000270000000100000000000000760000000100000000000000640000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Add1b.sch</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000009a000000010001000100000000000000000000000064ffffffff0000008100000000000000010000009a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Synthesize - XST</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Synthesize - XST</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff000000000000000200000193000000f301000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU16b_ALU16b_sch_tb C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ALU16bTest.v</ClosedNode>
+         <ClosedNode>/ALU16b_ALU16b_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ALU16bTest.v</ClosedNode>
+         <ClosedNode>/ALU16b_ALU16b_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ALU16bTest.v/UUT - ALU16b</ClosedNode>
+         <ClosedNode>/ALU16b_ALU16b_sch_tb |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ALU16bTest.v</ClosedNode>
+         <ClosedNode>/ALU1b_ALU1b_sch_tb C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ALU1bTest.v</ClosedNode>
+         <ClosedNode>/ALU1b_ALU1b_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ALU1bTest.v</ClosedNode>
+         <ClosedNode>/ALU1b_ALU1b_sch_tb |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ALU1bTest.v</ClosedNode>
+         <ClosedNode>/ALUcomp_ALUcomp_sch_tb C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ALUCompTest.v</ClosedNode>
+         <ClosedNode>/ALUcomp_ALUcomp_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ALUCompTest.v</ClosedNode>
+         <ClosedNode>/ALUcomp_ALUcomp_sch_tb |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ALUCompTest.v</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch</ClosedNode>
+         <ClosedNode>/FullDatapath C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch</ClosedNode>
+         <ClosedNode>/FullDatapath |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|FullDatapath.sch</ClosedNode>
+         <ClosedNode>/FullDatapath_FullDatapath_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|DatapathTest.v/UUT - FullDatapath</ClosedNode>
+         <ClosedNode>/FullDatapath_FullDatapath_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|DatapathTest.v/UUT - FullDatapath/XLXI_74 - ALU16b</ClosedNode>
+         <ClosedNode>/FullDatapath_FullDatapath_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|DatapathTest.v/UUT - FullDatapath/XLXI_84 - RegComp</ClosedNode>
+         <ClosedNode>/FullDatapath_FullDatapath_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|DatapathTest.v/UUT - FullDatapath/XLXI_85 - mux8x16</ClosedNode>
+         <ClosedNode>/FullDatapath_FullDatapath_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|DatapathTest.v/UUT - FullDatapath/XLXI_89 - memWrapper</ClosedNode>
+         <ClosedNode>/Memory_Memory_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|MemoryTest.v</ClosedNode>
+         <ClosedNode>/RegComp_RegComp_sch_tb C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|RegCompTest.v</ClosedNode>
+         <ClosedNode>/RegComp_RegComp_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|RegCompTest.v</ClosedNode>
+         <ClosedNode>/RegComp_RegComp_sch_tb |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|RegCompTest.v</ClosedNode>
+         <ClosedNode>/RegFile_RegFile_sch_tb C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|RegFileTest.v</ClosedNode>
+         <ClosedNode>/RegFile_RegFile_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|RegFileTest.v</ClosedNode>
+         <ClosedNode>/ShiftLeft_ShiftLeft_sch_tb C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ShiftLeftTest.v</ClosedNode>
+         <ClosedNode>/ShiftLeft_ShiftLeft_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ShiftLeftTest.v</ClosedNode>
+         <ClosedNode>/ShiftLeft_ShiftLeft_sch_tb |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ShiftLeftTest.v</ClosedNode>
+         <ClosedNode>/ShiftRightA_ShiftRightA_sch_tb C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ShiftRightATest.v</ClosedNode>
+         <ClosedNode>/ShiftRightA_ShiftRightA_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ShiftRightATest.v</ClosedNode>
+         <ClosedNode>/ShiftRightA_ShiftRightA_sch_tb |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ShiftRightATest.v</ClosedNode>
+         <ClosedNode>/ShiftRightL_ShiftRightL_sch_tb C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ShiftRightLTest.v</ClosedNode>
+         <ClosedNode>/ShiftRightL_ShiftRightL_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ShiftRightLTest.v</ClosedNode>
+         <ClosedNode>/ShiftRightL_ShiftRightL_sch_tb |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ShiftRightLTest.v</ClosedNode>
+         <ClosedNode>/Shifter_Shifter_sch_tb C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ShifterTest.v</ClosedNode>
+         <ClosedNode>/Shifter_Shifter_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ShifterTest.v</ClosedNode>
+         <ClosedNode>/Shifter_Shifter_sch_tb |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|ShifterTest.v</ClosedNode>
+         <ClosedNode>/memWrapper_memWrapper_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|memWrapper_test.v/UUT - memWrapper</ClosedNode>
+         <ClosedNode>/mux2_1_mux2_1_sch_tb C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|Mux2_1Test.v</ClosedNode>
+         <ClosedNode>/mux2_1_mux2_1_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|Mux2_1Test.v</ClosedNode>
+         <ClosedNode>/mux2_1_mux2_1_sch_tb |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|Mux2_1Test.v</ClosedNode>
+         <ClosedNode>/mux4_1_mux4_1_sch_tb C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|mux4_1Test.v</ClosedNode>
+         <ClosedNode>/mux4_1_mux4_1_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|mux4_1Test.v</ClosedNode>
+         <ClosedNode>/mux4_1_mux4_1_sch_tb |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|mux4_1Test.v</ClosedNode>
+         <ClosedNode>/reg16_reg16_sch_tb C:|Users|benshorm|Documents|Classes|3.1|CSSE 232|Labs|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|reg16Test.v</ClosedNode>
+         <ClosedNode>/reg16_reg16_sch_tb C:|Users|millerlj|Documents|CSSE232|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|reg16Test.v</ClosedNode>
+         <ClosedNode>/reg16_reg16_sch_tb |home|miskowbs|schoolwork|csse|csse232|finalProj|repo|1415a-csse232-benshorm-millerc5-millerlj-miskowbs|Datapath|reg16Test.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>FullDatapath_FullDatapath_sch_tb (C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/DatapathTest.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c3000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c30000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>FullDatapath_FullDatapath_sch_tb (C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/DatapathTest.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000184000000010000000100000000000000000000000064ffffffff000000810000000000000001000001840000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000184000000010000000100000000000000000000000064ffffffff000000810000000000000001000001840000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Check Syntax</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000184000000010000000100000000000000000000000064ffffffff000000810000000000000001000001840000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Check Syntax</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000184000000010000000100000000000000000000000064ffffffff000000810000000000000001000001840000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000184000000010000000100000000000000000000000064ffffffff000000810000000000000001000001840000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000184000000010000000100000000000000000000000064ffffffff000000810000000000000001000001840000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+</Project>

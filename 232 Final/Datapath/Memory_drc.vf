@@ -1,0 +1,108 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 13.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Memory_drc.vf
+// /___/   /\     Timestamp : 11/14/2014 01:59:04
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: /home/miskowbs/Xilinx2/13.4/ISE_DS/ISE/bin/lin64/unwrapped/sch2hdl -sympath /home/miskowbs/schoolwork/csse/csse232/finalProj/repo/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog Memory_drc.vf -w /home/miskowbs/schoolwork/csse/csse232/finalProj/repo/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Memory.sch
+//Design Name: Memory
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module OR6_MXILINX_Memory(I0, 
+                          I1, 
+                          I2, 
+                          I3, 
+                          I4, 
+                          I5, 
+                          O);
+
+    input I0;
+    input I1;
+    input I2;
+    input I3;
+    input I4;
+    input I5;
+   output O;
+   
+   wire dummy;
+   wire I35;
+   wire O_DUMMY;
+   
+   assign O = O_DUMMY;
+   OR4  I_36_87 (.I0(I0), 
+                .I1(I1), 
+                .I2(I2), 
+                .I3(I35), 
+                .O(O_DUMMY));
+   OR3  I_36_88 (.I0(I3), 
+                .I1(I4), 
+                .I2(I5), 
+                .O(I35));
+   (* RLOC = "X0Y0" *) 
+   FMAP  I_36_106 (.I1(I0), 
+                  .I2(I1), 
+                  .I3(I2), 
+                  .I4(I35), 
+                  .O(O_DUMMY));
+   (* RLOC = "X0Y0" *) 
+   FMAP  I_36_107 (.I1(I3), 
+                  .I2(I4), 
+                  .I3(I5), 
+                  .I4(dummy), 
+                  .O(I35));
+endmodule
+`timescale 1ns / 1ps
+
+module Memory(Addr, 
+              clock, 
+              DIn, 
+              reset, 
+              WE, 
+              DOut, 
+              MemOutOfBounds);
+
+    input [15:0] Addr;
+    input clock;
+    input [15:0] DIn;
+    input reset;
+    input WE;
+   output [15:0] DOut;
+   output MemOutOfBounds;
+   
+   wire [0:0] XLXN_8;
+   wire XLXN_9;
+   wire MemOutOfBounds_DUMMY;
+   
+   assign MemOutOfBounds = MemOutOfBounds_DUMMY;
+   mem16x10_block  XLXI_1 (.addra(Addr[9:0]), 
+                          .clka(clock), 
+                          .dina(DIn[15:0]), 
+                          .rsta(reset), 
+                          .wea(XLXN_8[0]), 
+                          .douta(DOut[15:0]));
+   (* HU_SET = "XLXI_5_0" *) 
+   OR6_MXILINX_Memory  XLXI_5 (.I0(Addr[10]), 
+                              .I1(Addr[11]), 
+                              .I2(Addr[12]), 
+                              .I3(Addr[13]), 
+                              .I4(Addr[14]), 
+                              .I5(Addr[15]), 
+                              .O(MemOutOfBounds_DUMMY));
+   INV  XLXI_6 (.I(MemOutOfBounds_DUMMY), 
+               .O(XLXN_9));
+   AND2  XLXI_9 (.I0(WE), 
+                .I1(XLXN_9), 
+                .O(XLXN_8[0]));
+endmodule

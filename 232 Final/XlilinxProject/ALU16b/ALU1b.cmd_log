@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family spartan3e -refsym ALU1b C:/Users/millerlj/Documents/CSSE232/ALU16b/ALU1b.sch C:/Users/millerlj/Documents/CSSE232/ALU16b/ALU1b.sym 
+sch2sym -intstyle ise -family spartan3e -refsym ALU1b C:/Users/millerlj/Documents/CSSE232/ALU16b/ALU1b.sch C:/Users/millerlj/Documents/CSSE232/ALU16b/ALU1b.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym ALU1b C:/Users/millerlj/Documents/CSSE232/ALU16b/ALU1b.sch C:/Users/millerlj/Documents/CSSE232/ALU16b/ALU1b.sym 
+xst -intstyle ise -ifn "C:/Users/millerlj/Documents/CSSE232/ALU16b/ALU1b.xst" -ofn "C:/Users/millerlj/Documents/CSSE232/ALU16b/ALU1b.syr" 
+sch2sym -intstyle ise -family spartan3e -w -refsym ALU1b C:/Users/millerlj/Documents/CSSE232/ALU16b/ALU1b.sch C:/Users/millerlj/Documents/CSSE232/ALU16b/ALU1b.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym ALU1b C:/Users/millerlj/Documents/CSSE232/ALU16b/ALU1b.sch C:/Users/millerlj/Documents/CSSE232/ALU16b/ALU1b.sym 

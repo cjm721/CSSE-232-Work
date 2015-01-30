@@ -1,0 +1,5 @@
+verilog isim_temp "ALUControl.v"
+verilog isim_temp "Op1Module.vf"
+verilog isim_temp "Op2Module.vf"
+verilog isim_temp "Op3Module.vf"
+verilog isim_temp "C:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v"

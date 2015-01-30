@@ -1,0 +1,79 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 13.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ShiftRL2b.vf
+// /___/   /\     Timestamp : 11/17/2014 15:26:43
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftRL2b.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftRL2b.sch
+//Design Name: ShiftRL2b
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Shiftrl1b_MUSER_ShiftRL2b(A, 
+                                 O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire XLXN_4;
+   
+   BUF  XLXI_1 (.I(A[0]), 
+               .O(XLXN_4));
+   BUF  XLXI_2 (.I(A[1]), 
+               .O(O[0]));
+   BUF  XLXI_3 (.I(A[2]), 
+               .O(O[1]));
+   BUF  XLXI_4 (.I(A[3]), 
+               .O(O[2]));
+   BUF  XLXI_5 (.I(A[4]), 
+               .O(O[3]));
+   BUF  XLXI_6 (.I(A[5]), 
+               .O(O[4]));
+   BUF  XLXI_7 (.I(A[6]), 
+               .O(O[5]));
+   BUF  XLXI_8 (.I(A[7]), 
+               .O(O[6]));
+   BUF  XLXI_9 (.I(A[8]), 
+               .O(O[7]));
+   BUF  XLXI_10 (.I(A[9]), 
+                .O(O[8]));
+   BUF  XLXI_11 (.I(A[10]), 
+                .O(O[9]));
+   BUF  XLXI_12 (.I(A[11]), 
+                .O(O[10]));
+   BUF  XLXI_13 (.I(A[12]), 
+                .O(O[11]));
+   BUF  XLXI_14 (.I(A[13]), 
+                .O(O[12]));
+   BUF  XLXI_15 (.I(A[14]), 
+                .O(O[13]));
+   BUF  XLXI_16 (.I(A[15]), 
+                .O(O[14]));
+   GND  XLXI_17 (.G(O[15]));
+endmodule
+`timescale 1ns / 1ps
+
+module ShiftRL2b(A, 
+                 O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_1;
+   
+   Shiftrl1b_MUSER_ShiftRL2b  XLXI_1 (.A(A[15:0]), 
+                                     .O(XLXN_1[15:0]));
+   Shiftrl1b_MUSER_ShiftRL2b  XLXI_2 (.A(XLXN_1[15:0]), 
+                                     .O(O[15:0]));
+endmodule

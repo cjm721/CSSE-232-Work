@@ -1,0 +1,8 @@
+verilog work "mux16b8.vf"
+verilog work "decode3b8.vf"
+verilog work "constant0.vf"
+verilog work "RegFile.vf"
+verilog work "reg16.vf"
+verilog work "RegComp.vf"
+verilog work "RegCompTest.v"
+verilog work "/home/miskowbs/Xilinx2/13.4/ISE_DS/ISE//verilog/src/glbl.v"

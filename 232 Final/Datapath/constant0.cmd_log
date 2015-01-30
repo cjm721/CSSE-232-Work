@@ -1,0 +1,1 @@
+sch2hdl -intstyle ise -family spartan3e -verilog constant0_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/constant0.sch 

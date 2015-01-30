@@ -1,0 +1,62 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 13.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : constant0_drc.vf
+// /___/   /\     Timestamp : 11/13/2014 20:46:49
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog constant0_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/constant0.sch
+//Design Name: constant0
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module constant0(zero);
+
+   output [15:0] zero;
+   
+   wire G;
+   
+   GND  XLXI_1 (.G(G));
+   BUF  XLXI_2 (.I(G), 
+               .O(zero[0]));
+   BUF  XLXI_3 (.I(G), 
+               .O(zero[1]));
+   BUF  XLXI_4 (.I(G), 
+               .O(zero[2]));
+   BUF  XLXI_5 (.I(G), 
+               .O(zero[3]));
+   BUF  XLXI_6 (.I(G), 
+               .O(zero[4]));
+   BUF  XLXI_7 (.I(G), 
+               .O(zero[5]));
+   BUF  XLXI_8 (.I(G), 
+               .O(zero[6]));
+   BUF  XLXI_9 (.I(G), 
+               .O(zero[7]));
+   BUF  XLXI_10 (.I(G), 
+                .O(zero[8]));
+   BUF  XLXI_11 (.I(G), 
+                .O(zero[9]));
+   BUF  XLXI_12 (.I(G), 
+                .O(zero[10]));
+   BUF  XLXI_13 (.I(G), 
+                .O(zero[11]));
+   BUF  XLXI_14 (.I(G), 
+                .O(zero[12]));
+   BUF  XLXI_15 (.I(G), 
+                .O(zero[13]));
+   BUF  XLXI_16 (.I(G), 
+                .O(zero[14]));
+   BUF  XLXI_17 (.I(G), 
+                .O(zero[15]));
+endmodule

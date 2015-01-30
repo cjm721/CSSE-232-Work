@@ -1,0 +1,138 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath_FullDatapath_sch_tb_isim_beh.exe -prj C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath_FullDatapath_sch_tb_beh.prj work.FullDatapath_FullDatapath_sch_tb work.glbl 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Shiftrl1b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftRA1b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/shift1b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftRL2b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftRA2b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/shiftl2b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftRL4b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftRA4b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Shiftl4b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/shiftRL8b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftRA8b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/shiftl8b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/shiftrl16b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftRA16b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Shiftl16b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/mux2_1.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftRightL.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftRightA.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftLeft.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ShiftControlModule.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/mux16b8.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/decode3b8.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/constant0.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Add1b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Shifter.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/RegFile.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/reg16.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/mux4_1.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/mux4x4.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir/mem16x10_block.v" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ALU1b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/SignExtender.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/SignExtend4_16.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/RegComp.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/mux8x16.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/mux2x3.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/memWrapper.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Control2.v" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/catbox.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ALUControl.v" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ALU16b.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/DatapathTest.v" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Op1Module.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Op2Module.vf" into library work
+Analyzing Verilog file "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Op3Module.vf" into library work
+Analyzing Verilog file "C:/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module AND2
+Compiling module GND
+Compiling module AND2B1
+Compiling module OR2
+Compiling module M2_1_MXILINX_FullDatapath
+Compiling module mux2_1_MUSER_FullDatapath
+Compiling module AND3
+Compiling module AND3B1
+Compiling module M2_1E_MXILINX_FullDatapath
+Compiling module MUXF5
+Compiling module M4_1E_MXILINX_FullDatapath
+Compiling module VCC
+Compiling module mux4_1_MUSER_FullDatapath
+Compiling module BUF
+Compiling module SignExtender_MUSER_FullDatapath
+Compiling module catbox_MUSER_FullDatapath
+Compiling module FDCE
+Compiling module FD16CE_MXILINX_FullDatapath
+Compiling module reg16_MUSER_FullDatapath
+Compiling module XOR2
+Compiling module Add1b_MUSER_FullDatapath
+Compiling module INV
+Compiling module ALU1b_MUSER_FullDatapath
+Compiling module shift1b_MUSER_FullDatapath
+Compiling module shiftl2b_MUSER_FullDatapath
+Compiling module Shiftl4b_MUSER_FullDatapath
+Compiling module shiftl8b_MUSER_FullDatapath
+Compiling module Shiftl16b_MUSER_FullDatapath
+Compiling module ShiftLeft_MUSER_FullDatapath
+Compiling module Shiftrl1b_MUSER_FullDatapath
+Compiling module ShiftRL2b_MUSER_FullDatapath
+Compiling module ShiftRL4b_MUSER_FullDatapath
+Compiling module shiftRL8b_MUSER_FullDatapath
+Compiling module shiftrl16b_MUSER_FullDatapath
+Compiling module ShiftRightL_MUSER_FullDatapath
+Compiling module ShiftRA1b_MUSER_FullDatapath
+Compiling module ShiftRA2b_MUSER_FullDatapath
+Compiling module ShiftRA4b_MUSER_FullDatapath
+Compiling module ShiftRA8b_MUSER_FullDatapath
+Compiling module ShiftRA16b_MUSER_FullDatapath
+Compiling module ShiftRightA_MUSER_FullDatapath
+Compiling module ShiftControlModule_MUSER_FullDat...
+Compiling module Shifter_MUSER_FullDatapath
+Compiling module MUXCY_L
+Compiling module FMAP
+Compiling module NOR4
+Compiling module MUXCY
+Compiling module NOR16_MXILINX_FullDatapath
+Compiling module ALU16b_MUSER_FullDatapath
+Compiling module mux2x3_MUSER_FullDatapath
+Compiling module AND5
+Compiling module decode3b8_MUSER_FullDatapath
+Compiling module FDRE
+Compiling module FD16RE_MXILINX_FullDatapath
+Compiling module constant0_MUSER_FullDatapath
+Compiling module MUXF5_L
+Compiling module MUXF6
+Compiling module M16_1E_MXILINX_FullDatapath
+Compiling module mux16b8_MUSER_FullDatapath
+Compiling module RegFile_MUSER_FullDatapath
+Compiling module mux4x4_MUSER_FullDatapath
+Compiling module RegComp_MUSER_FullDatapath
+Compiling module mux8x16_MUSER_FullDatapath
+Compiling module SignExtend4_16_MUSER_FullDatapat...
+Compiling module BLK_MEM_GEN_V6_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V6_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V6_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V6_3(C_FAMILY="spart...
+Compiling module mem16x10_block
+Compiling module OR4
+Compiling module OR3
+Compiling module OR6_MXILINX_FullDatapath
+Compiling module memWrapper_MUSER_FullDatapath
+Compiling module ALUControl
+Compiling module control
+Compiling module FullDatapath
+Compiling module FullDatapath_FullDatapath_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1fs.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 78 Verilog Units
+Built simulation executable C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath_FullDatapath_sch_tb_isim_beh.exe
+Fuse Memory Usage: 37124 KB
+Fuse CPU Usage: 1325 ms

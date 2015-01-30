@@ -1,0 +1,135 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml FullDatapath.twx FullDatapath.ncd -o FullDatapath.twr
+FullDatapath.pcf
+
+Design file:              FullDatapath.ncd
+Physical constraint file: FullDatapath.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2012-01-07)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock CLK to Pad
+--------------+------------+------------------+--------+
+              | clk (edge) |                  | Clock  |
+Destination   |   to PAD   |Internal Clock(s) | Phase  |
+--------------+------------+------------------+--------+
+DIn<0>        |    8.738(R)|CLK_BUFGP         |   0.000|
+DIn<1>        |    8.733(R)|CLK_BUFGP         |   0.000|
+DIn<2>        |    7.932(R)|CLK_BUFGP         |   0.000|
+DIn<3>        |    8.327(R)|CLK_BUFGP         |   0.000|
+DIn<4>        |    7.928(R)|CLK_BUFGP         |   0.000|
+DIn<5>        |    8.201(R)|CLK_BUFGP         |   0.000|
+DIn<6>        |    8.282(R)|CLK_BUFGP         |   0.000|
+DIn<7>        |    9.163(R)|CLK_BUFGP         |   0.000|
+DIn<8>        |    7.857(R)|CLK_BUFGP         |   0.000|
+DIn<9>        |    7.834(R)|CLK_BUFGP         |   0.000|
+DIn<10>       |    8.721(R)|CLK_BUFGP         |   0.000|
+DIn<11>       |    9.184(R)|CLK_BUFGP         |   0.000|
+DIn<12>       |    9.202(R)|CLK_BUFGP         |   0.000|
+DIn<13>       |    8.635(R)|CLK_BUFGP         |   0.000|
+DIn<14>       |    8.509(R)|CLK_BUFGP         |   0.000|
+DIn<15>       |    8.828(R)|CLK_BUFGP         |   0.000|
+IR<0>         |    9.155(R)|CLK_BUFGP         |   0.000|
+IR<1>         |    8.573(R)|CLK_BUFGP         |   0.000|
+IR<2>         |    9.750(R)|CLK_BUFGP         |   0.000|
+IR<3>         |    9.387(R)|CLK_BUFGP         |   0.000|
+IR<4>         |    9.666(R)|CLK_BUFGP         |   0.000|
+IR<5>         |    9.898(R)|CLK_BUFGP         |   0.000|
+IR<6>         |    8.628(R)|CLK_BUFGP         |   0.000|
+IR<7>         |    8.774(R)|CLK_BUFGP         |   0.000|
+IR<8>         |   10.085(R)|CLK_BUFGP         |   0.000|
+IR<9>         |    9.851(R)|CLK_BUFGP         |   0.000|
+IR<10>        |    9.474(R)|CLK_BUFGP         |   0.000|
+IR<11>        |    9.301(R)|CLK_BUFGP         |   0.000|
+IR<12>        |    8.968(R)|CLK_BUFGP         |   0.000|
+IR<13>        |    7.887(R)|CLK_BUFGP         |   0.000|
+IR<14>        |   10.926(R)|CLK_BUFGP         |   0.000|
+IR<15>        |    9.278(R)|CLK_BUFGP         |   0.000|
+MemOutOfBounds|   14.612(R)|CLK_BUFGP         |   0.000|
+PC<0>         |    9.669(R)|CLK_BUFGP         |   0.000|
+PC<1>         |    8.059(R)|CLK_BUFGP         |   0.000|
+PC<2>         |    8.058(R)|CLK_BUFGP         |   0.000|
+PC<3>         |    8.479(R)|CLK_BUFGP         |   0.000|
+PC<4>         |    7.735(R)|CLK_BUFGP         |   0.000|
+PC<5>         |    7.741(R)|CLK_BUFGP         |   0.000|
+PC<6>         |    7.737(R)|CLK_BUFGP         |   0.000|
+PC<7>         |    7.740(R)|CLK_BUFGP         |   0.000|
+PC<8>         |    8.132(R)|CLK_BUFGP         |   0.000|
+PC<9>         |    7.831(R)|CLK_BUFGP         |   0.000|
+PC<10>        |    7.768(R)|CLK_BUFGP         |   0.000|
+PC<11>        |    8.163(R)|CLK_BUFGP         |   0.000|
+PC<12>        |    8.013(R)|CLK_BUFGP         |   0.000|
+PC<13>        |    8.172(R)|CLK_BUFGP         |   0.000|
+PC<14>        |    7.537(R)|CLK_BUFGP         |   0.000|
+PC<15>        |    7.797(R)|CLK_BUFGP         |   0.000|
+PCWriteOut    |   34.111(R)|CLK_BUFGP         |   0.000|
+writedata<0>  |   12.366(R)|CLK_BUFGP         |   0.000|
+writedata<1>  |   11.705(R)|CLK_BUFGP         |   0.000|
+writedata<2>  |   12.153(R)|CLK_BUFGP         |   0.000|
+writedata<3>  |   12.555(R)|CLK_BUFGP         |   0.000|
+writedata<4>  |   13.992(R)|CLK_BUFGP         |   0.000|
+writedata<5>  |   11.938(R)|CLK_BUFGP         |   0.000|
+writedata<6>  |   11.827(R)|CLK_BUFGP         |   0.000|
+writedata<7>  |   12.815(R)|CLK_BUFGP         |   0.000|
+writedata<8>  |   12.021(R)|CLK_BUFGP         |   0.000|
+writedata<9>  |   11.882(R)|CLK_BUFGP         |   0.000|
+writedata<10> |   12.088(R)|CLK_BUFGP         |   0.000|
+writedata<11> |   12.234(R)|CLK_BUFGP         |   0.000|
+writedata<12> |   11.981(R)|CLK_BUFGP         |   0.000|
+writedata<13> |   11.039(R)|CLK_BUFGP         |   0.000|
+writedata<14> |   12.081(R)|CLK_BUFGP         |   0.000|
+writedata<15> |   12.371(R)|CLK_BUFGP         |   0.000|
+--------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |   28.898|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Nov 19 18:53:24 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 186 MB
+
+
+

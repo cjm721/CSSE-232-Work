@@ -1,0 +1,139 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 13.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : mux2_1_drc.vf
+// /___/   /\     Timestamp : 11/17/2014 01:37:43
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog mux2_1_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/mux2_1.sch
+//Design Name: mux2_1
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module M2_1_MXILINX_mux2_1(D0, 
+                           D1, 
+                           S0, 
+                           O);
+
+    input D0;
+    input D1;
+    input S0;
+   output O;
+   
+   wire M0;
+   wire M1;
+   
+   AND2B1  I_36_7 (.I0(S0), 
+                  .I1(D0), 
+                  .O(M0));
+   OR2  I_36_8 (.I0(M1), 
+               .I1(M0), 
+               .O(O));
+   AND2  I_36_9 (.I0(D1), 
+                .I1(S0), 
+                .O(M1));
+endmodule
+`timescale 1ns / 1ps
+
+module mux2_1(D1, 
+              D2, 
+              S1, 
+              O);
+
+    input [15:0] D1;
+    input [15:0] D2;
+    input S1;
+   output [15:0] O;
+   
+   
+   (* HU_SET = "XLXI_1_0" *) 
+   M2_1_MXILINX_mux2_1  XLXI_1 (.D0(D1[0]), 
+                               .D1(D2[0]), 
+                               .S0(S1), 
+                               .O(O[0]));
+   (* HU_SET = "XLXI_17_1" *) 
+   M2_1_MXILINX_mux2_1  XLXI_17 (.D0(D1[1]), 
+                                .D1(D2[1]), 
+                                .S0(S1), 
+                                .O(O[1]));
+   (* HU_SET = "XLXI_18_2" *) 
+   M2_1_MXILINX_mux2_1  XLXI_18 (.D0(D1[4]), 
+                                .D1(D2[4]), 
+                                .S0(S1), 
+                                .O(O[4]));
+   (* HU_SET = "XLXI_19_3" *) 
+   M2_1_MXILINX_mux2_1  XLXI_19 (.D0(D1[5]), 
+                                .D1(D2[5]), 
+                                .S0(S1), 
+                                .O(O[5]));
+   (* HU_SET = "XLXI_20_4" *) 
+   M2_1_MXILINX_mux2_1  XLXI_20 (.D0(D1[2]), 
+                                .D1(D2[2]), 
+                                .S0(S1), 
+                                .O(O[2]));
+   (* HU_SET = "XLXI_21_5" *) 
+   M2_1_MXILINX_mux2_1  XLXI_21 (.D0(D1[3]), 
+                                .D1(D2[3]), 
+                                .S0(S1), 
+                                .O(O[3]));
+   (* HU_SET = "XLXI_22_6" *) 
+   M2_1_MXILINX_mux2_1  XLXI_22 (.D0(D1[6]), 
+                                .D1(D2[6]), 
+                                .S0(S1), 
+                                .O(O[6]));
+   (* HU_SET = "XLXI_23_7" *) 
+   M2_1_MXILINX_mux2_1  XLXI_23 (.D0(D1[7]), 
+                                .D1(D2[7]), 
+                                .S0(S1), 
+                                .O(O[7]));
+   (* HU_SET = "XLXI_24_8" *) 
+   M2_1_MXILINX_mux2_1  XLXI_24 (.D0(D1[8]), 
+                                .D1(D2[8]), 
+                                .S0(S1), 
+                                .O(O[8]));
+   (* HU_SET = "XLXI_25_9" *) 
+   M2_1_MXILINX_mux2_1  XLXI_25 (.D0(D1[9]), 
+                                .D1(D2[9]), 
+                                .S0(S1), 
+                                .O(O[9]));
+   (* HU_SET = "XLXI_26_10" *) 
+   M2_1_MXILINX_mux2_1  XLXI_26 (.D0(D1[12]), 
+                                .D1(D2[12]), 
+                                .S0(S1), 
+                                .O(O[12]));
+   (* HU_SET = "XLXI_27_11" *) 
+   M2_1_MXILINX_mux2_1  XLXI_27 (.D0(D1[13]), 
+                                .D1(D2[13]), 
+                                .S0(S1), 
+                                .O(O[13]));
+   (* HU_SET = "XLXI_28_12" *) 
+   M2_1_MXILINX_mux2_1  XLXI_28 (.D0(D1[10]), 
+                                .D1(D2[10]), 
+                                .S0(S1), 
+                                .O(O[10]));
+   (* HU_SET = "XLXI_29_13" *) 
+   M2_1_MXILINX_mux2_1  XLXI_29 (.D0(D1[11]), 
+                                .D1(D2[11]), 
+                                .S0(S1), 
+                                .O(O[11]));
+   (* HU_SET = "XLXI_30_14" *) 
+   M2_1_MXILINX_mux2_1  XLXI_30 (.D0(D1[14]), 
+                                .D1(D2[14]), 
+                                .S0(S1), 
+                                .O(O[14]));
+   (* HU_SET = "XLXI_31_15" *) 
+   M2_1_MXILINX_mux2_1  XLXI_31 (.D0(D1[15]), 
+                                .D1(D2[15]), 
+                                .S0(S1), 
+                                .O(O[15]));
+endmodule

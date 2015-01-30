@@ -1,0 +1,145 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 13.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : mux4x4_drc.vf
+// /___/   /\     Timestamp : 11/17/2014 01:46:58
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog mux4x4_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/mux4x4.sch
+//Design Name: mux4x4
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module M2_1E_MXILINX_mux4x4(D0, 
+                            D1, 
+                            E, 
+                            S0, 
+                            O);
+
+    input D0;
+    input D1;
+    input E;
+    input S0;
+   output O;
+   
+   wire M0;
+   wire M1;
+   
+   AND3  I_36_30 (.I0(D1), 
+                 .I1(E), 
+                 .I2(S0), 
+                 .O(M1));
+   AND3B1  I_36_31 (.I0(S0), 
+                   .I1(E), 
+                   .I2(D0), 
+                   .O(M0));
+   OR2  I_36_38 (.I0(M1), 
+                .I1(M0), 
+                .O(O));
+endmodule
+`timescale 1ns / 1ps
+
+module M4_1E_MXILINX_mux4x4(D0, 
+                            D1, 
+                            D2, 
+                            D3, 
+                            E, 
+                            S0, 
+                            S1, 
+                            O);
+
+    input D0;
+    input D1;
+    input D2;
+    input D3;
+    input E;
+    input S0;
+    input S1;
+   output O;
+   
+   wire M01;
+   wire M23;
+   
+   (* HU_SET = "I_M01_1" *) 
+   M2_1E_MXILINX_mux4x4  I_M01 (.D0(D0), 
+                               .D1(D1), 
+                               .E(E), 
+                               .S0(S0), 
+                               .O(M01));
+   (* HU_SET = "I_M23_0" *) 
+   M2_1E_MXILINX_mux4x4  I_M23 (.D0(D2), 
+                               .D1(D3), 
+                               .E(E), 
+                               .S0(S0), 
+                               .O(M23));
+   MUXF5  I_O (.I0(M01), 
+              .I1(M23), 
+              .S(S1), 
+              .O(O));
+endmodule
+`timescale 1ns / 1ps
+
+module mux4x4(D0, 
+              D1, 
+              D2, 
+              D3, 
+              S, 
+              O);
+
+    input [3:0] D0;
+    input [3:0] D1;
+    input [3:0] D2;
+    input [3:0] D3;
+    input [1:0] S;
+   output [4:0] O;
+   
+   wire v;
+   
+   (* HU_SET = "XLXI_2_2" *) 
+   M4_1E_MXILINX_mux4x4  XLXI_2 (.D0(D0[0]), 
+                                .D1(D1[0]), 
+                                .D2(D2[0]), 
+                                .D3(D3[0]), 
+                                .E(v), 
+                                .S0(S[0]), 
+                                .S1(S[1]), 
+                                .O(O[0]));
+   (* HU_SET = "XLXI_6_3" *) 
+   M4_1E_MXILINX_mux4x4  XLXI_6 (.D0(D0[1]), 
+                                .D1(D1[1]), 
+                                .D2(D2[1]), 
+                                .D3(D3[1]), 
+                                .E(v), 
+                                .S0(S[0]), 
+                                .S1(S[1]), 
+                                .O(O[1]));
+   (* HU_SET = "XLXI_7_4" *) 
+   M4_1E_MXILINX_mux4x4  XLXI_7 (.D0(D0[2]), 
+                                .D1(D1[2]), 
+                                .D2(D2[2]), 
+                                .D3(D3[2]), 
+                                .E(v), 
+                                .S0(S[0]), 
+                                .S1(S[1]), 
+                                .O(O[2]));
+   (* HU_SET = "XLXI_8_5" *) 
+   M4_1E_MXILINX_mux4x4  XLXI_8 (.D0(D0[3]), 
+                                .D1(D1[3]), 
+                                .D2(D2[3]), 
+                                .D3(D3[3]), 
+                                .E(v), 
+                                .S0(S[0]), 
+                                .S1(S[1]), 
+                                .O(O[3]));
+   VCC  XLXI_9 (.P(v));
+endmodule

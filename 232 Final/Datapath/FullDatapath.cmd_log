@@ -1,0 +1,43 @@
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2sym -intstyle ise -family spartan3e -refsym FullDatapath C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FullDatapath.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/FullDatapath.sch 
+xst -intstyle ise -ifn "/home/miskowbs/schoolwork/csse/csse232/finalProj/repo/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.xst" -ofn "/home/miskowbs/schoolwork/csse/csse232/finalProj/repo/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.syr" 
+sch2sym -intstyle ise -family spartan3e -refsym FullDatapath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sch C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sym 
+sch2sym -intstyle ise -family spartan3e -refsym FullDatapath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sch C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sym 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog FullDatapath_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.sch 
+xst -intstyle ise -ifn "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.xst" -ofn "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.syr" 
+xst -intstyle ise -ifn "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.xst" -ofn "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 FullDatapath.ngc FullDatapath.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FullDatapath_map.ncd FullDatapath.ngd FullDatapath.pcf 
+par -w -intstyle ise -ol high -t 1 FullDatapath_map.ncd FullDatapath.ncd FullDatapath.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FullDatapath.twx FullDatapath.ncd -o FullDatapath.twr FullDatapath.pcf 
+xst -intstyle ise -ifn "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.xst" -ofn "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.syr" 
+xst -intstyle ise -ifn "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.xst" -ofn "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 FullDatapath.ngc FullDatapath.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FullDatapath_map.ncd FullDatapath.ngd FullDatapath.pcf 
+par -w -intstyle ise -pl std -rl std -t 1 FullDatapath_map.ncd FullDatapath.ncd FullDatapath.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FullDatapath.twx FullDatapath.ncd -o FullDatapath.twr FullDatapath.pcf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim FullDatapath.ngc FullDatapath_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.xst" -ofn "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath.syr" 

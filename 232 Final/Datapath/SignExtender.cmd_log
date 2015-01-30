@@ -1,0 +1,7 @@
+sch2hdl -intstyle ise -family spartan3e -verilog SignExtender_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/SignExtender.sch 
+sch2sym -intstyle ise -family spartan3e -refsym SignExtender C:/Users/millerlj/Documents/CSSE232/Datapath/SignExtender.sch C:/Users/millerlj/Documents/CSSE232/Datapath/SignExtender.sym 
+sch2sym -intstyle ise -family spartan3e -refsym SignExtender C:/Users/millerlj/Documents/CSSE232/Datapath/SignExtender.sch C:/Users/millerlj/Documents/CSSE232/Datapath/SignExtender.sym 
+sch2sym -intstyle ise -family spartan3e -refsym SignExtender C:/Users/millerlj/Documents/CSSE232/Datapath/SignExtender.sch C:/Users/millerlj/Documents/CSSE232/Datapath/SignExtender.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog SignExtender_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/SignExtender.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog SignExtender_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/SignExtender.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog SignExtender_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/SignExtender.sch 

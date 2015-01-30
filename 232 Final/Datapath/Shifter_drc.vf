@@ -1,0 +1,658 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 13.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Shifter_drc.vf
+// /___/   /\     Timestamp : 11/16/2014 23:59:27
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog Shifter_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Shifter.sch
+//Design Name: Shifter
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ShiftControlModule_MUSER_Shifter(B, 
+                                        Out2);
+
+    input [15:0] B;
+   output [15:0] Out2;
+   
+   
+   BUF  XLXI_1 (.I(B[0]), 
+               .O(Out2[0]));
+   BUF  XLXI_2 (.I(B[1]), 
+               .O(Out2[1]));
+   BUF  XLXI_3 (.I(B[2]), 
+               .O(Out2[2]));
+   BUF  XLXI_4 (.I(B[3]), 
+               .O(Out2[3]));
+   BUF  XLXI_5 (.I(B[4]), 
+               .O(Out2[4]));
+endmodule
+`timescale 1ns / 1ps
+
+module M2_1_MXILINX_Shifter(D0, 
+                            D1, 
+                            S0, 
+                            O);
+
+    input D0;
+    input D1;
+    input S0;
+   output O;
+   
+   wire M0;
+   wire M1;
+   
+   AND2B1  I_36_7 (.I0(S0), 
+                  .I1(D0), 
+                  .O(M0));
+   OR2  I_36_8 (.I0(M1), 
+               .I1(M0), 
+               .O(O));
+   AND2  I_36_9 (.I0(D1), 
+                .I1(S0), 
+                .O(M1));
+endmodule
+`timescale 1ns / 1ps
+
+module mux2_1_MUSER_Shifter(D1, 
+                            D2, 
+                            S1, 
+                            O);
+
+    input [15:0] D1;
+    input [15:0] D2;
+    input S1;
+   output [15:0] O;
+   
+   
+   (* HU_SET = "XLXI_1_0" *) 
+   M2_1_MXILINX_Shifter  XLXI_1 (.D0(D1[0]), 
+                                .D1(D2[0]), 
+                                .S0(S1), 
+                                .O(O[0]));
+   (* HU_SET = "XLXI_17_1" *) 
+   M2_1_MXILINX_Shifter  XLXI_17 (.D0(D1[1]), 
+                                 .D1(D2[1]), 
+                                 .S0(S1), 
+                                 .O(O[1]));
+   (* HU_SET = "XLXI_18_2" *) 
+   M2_1_MXILINX_Shifter  XLXI_18 (.D0(D1[4]), 
+                                 .D1(D2[4]), 
+                                 .S0(S1), 
+                                 .O(O[4]));
+   (* HU_SET = "XLXI_19_3" *) 
+   M2_1_MXILINX_Shifter  XLXI_19 (.D0(D1[5]), 
+                                 .D1(D2[5]), 
+                                 .S0(S1), 
+                                 .O(O[5]));
+   (* HU_SET = "XLXI_20_4" *) 
+   M2_1_MXILINX_Shifter  XLXI_20 (.D0(D1[2]), 
+                                 .D1(D2[2]), 
+                                 .S0(S1), 
+                                 .O(O[2]));
+   (* HU_SET = "XLXI_21_5" *) 
+   M2_1_MXILINX_Shifter  XLXI_21 (.D0(D1[3]), 
+                                 .D1(D2[3]), 
+                                 .S0(S1), 
+                                 .O(O[3]));
+   (* HU_SET = "XLXI_22_6" *) 
+   M2_1_MXILINX_Shifter  XLXI_22 (.D0(D1[6]), 
+                                 .D1(D2[6]), 
+                                 .S0(S1), 
+                                 .O(O[6]));
+   (* HU_SET = "XLXI_23_7" *) 
+   M2_1_MXILINX_Shifter  XLXI_23 (.D0(D1[7]), 
+                                 .D1(D2[7]), 
+                                 .S0(S1), 
+                                 .O(O[7]));
+   (* HU_SET = "XLXI_24_8" *) 
+   M2_1_MXILINX_Shifter  XLXI_24 (.D0(D1[8]), 
+                                 .D1(D2[8]), 
+                                 .S0(S1), 
+                                 .O(O[8]));
+   (* HU_SET = "XLXI_25_9" *) 
+   M2_1_MXILINX_Shifter  XLXI_25 (.D0(D1[9]), 
+                                 .D1(D2[9]), 
+                                 .S0(S1), 
+                                 .O(O[9]));
+   (* HU_SET = "XLXI_26_10" *) 
+   M2_1_MXILINX_Shifter  XLXI_26 (.D0(D1[12]), 
+                                 .D1(D2[12]), 
+                                 .S0(S1), 
+                                 .O(O[12]));
+   (* HU_SET = "XLXI_27_11" *) 
+   M2_1_MXILINX_Shifter  XLXI_27 (.D0(D1[13]), 
+                                 .D1(D2[13]), 
+                                 .S0(S1), 
+                                 .O(O[13]));
+   (* HU_SET = "XLXI_28_12" *) 
+   M2_1_MXILINX_Shifter  XLXI_28 (.D0(D1[10]), 
+                                 .D1(D2[10]), 
+                                 .S0(S1), 
+                                 .O(O[10]));
+   (* HU_SET = "XLXI_29_13" *) 
+   M2_1_MXILINX_Shifter  XLXI_29 (.D0(D1[11]), 
+                                 .D1(D2[11]), 
+                                 .S0(S1), 
+                                 .O(O[11]));
+   (* HU_SET = "XLXI_30_14" *) 
+   M2_1_MXILINX_Shifter  XLXI_30 (.D0(D1[14]), 
+                                 .D1(D2[14]), 
+                                 .S0(S1), 
+                                 .O(O[14]));
+   (* HU_SET = "XLXI_31_15" *) 
+   M2_1_MXILINX_Shifter  XLXI_31 (.D0(D1[15]), 
+                                 .D1(D2[15]), 
+                                 .S0(S1), 
+                                 .O(O[15]));
+endmodule
+`timescale 1ns / 1ps
+
+module ShiftRA1b_MUSER_Shifter(A, 
+                               O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire XLXN_4;
+   
+   BUF  XLXI_4 (.I(A[0]), 
+               .O(XLXN_4));
+   BUF  XLXI_5 (.I(A[1]), 
+               .O(O[0]));
+   BUF  XLXI_6 (.I(A[2]), 
+               .O(O[1]));
+   BUF  XLXI_7 (.I(A[3]), 
+               .O(O[2]));
+   BUF  XLXI_8 (.I(A[4]), 
+               .O(O[3]));
+   BUF  XLXI_9 (.I(A[5]), 
+               .O(O[4]));
+   BUF  XLXI_10 (.I(A[6]), 
+                .O(O[5]));
+   BUF  XLXI_11 (.I(A[7]), 
+                .O(O[6]));
+   BUF  XLXI_12 (.I(A[8]), 
+                .O(O[7]));
+   BUF  XLXI_13 (.I(A[9]), 
+                .O(O[8]));
+   BUF  XLXI_14 (.I(A[10]), 
+                .O(O[9]));
+   BUF  XLXI_15 (.I(A[11]), 
+                .O(O[10]));
+   BUF  XLXI_16 (.I(A[12]), 
+                .O(O[11]));
+   BUF  XLXI_17 (.I(A[13]), 
+                .O(O[12]));
+   BUF  XLXI_18 (.I(A[14]), 
+                .O(O[13]));
+   BUF  XLXI_19 (.I(A[15]), 
+                .O(O[14]));
+   BUF  XLXI_20 (.I(A[15]), 
+                .O(O[15]));
+endmodule
+`timescale 1ns / 1ps
+
+module ShiftRA2b_MUSER_Shifter(A, 
+                               O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_1;
+   
+   ShiftRA1b_MUSER_Shifter  XLXI_1 (.A(A[15:0]), 
+                                   .O(XLXN_1[15:0]));
+   ShiftRA1b_MUSER_Shifter  XLXI_2 (.A(XLXN_1[15:0]), 
+                                   .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module ShiftRA4b_MUSER_Shifter(A, 
+                               O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_1;
+   
+   ShiftRA2b_MUSER_Shifter  XLXI_1 (.A(A[15:0]), 
+                                   .O(XLXN_1[15:0]));
+   ShiftRA2b_MUSER_Shifter  XLXI_2 (.A(XLXN_1[15:0]), 
+                                   .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module ShiftRA8b_MUSER_Shifter(A, 
+                               O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_1;
+   
+   ShiftRA4b_MUSER_Shifter  XLXI_1 (.A(A[15:0]), 
+                                   .O(XLXN_1[15:0]));
+   ShiftRA4b_MUSER_Shifter  XLXI_2 (.A(XLXN_1[15:0]), 
+                                   .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module ShiftRA16b_MUSER_Shifter(A, 
+                                O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_1;
+   
+   ShiftRA8b_MUSER_Shifter  XLXI_1 (.A(A[15:0]), 
+                                   .O(XLXN_1[15:0]));
+   ShiftRA8b_MUSER_Shifter  XLXI_2 (.A(XLXN_1[15:0]), 
+                                   .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module ShiftRightA_MUSER_Shifter(A, 
+                                 B, 
+                                 O);
+
+    input [15:0] A;
+    input [15:0] B;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_12;
+   wire [15:0] XLXN_19;
+   wire [15:0] XLXN_23;
+   wire [15:0] XLXN_25;
+   wire [15:0] XLXN_27;
+   wire [15:0] XLXN_28;
+   wire [15:0] XLXN_31;
+   wire [15:0] XLXN_36;
+   wire [15:0] XLXN_38;
+   
+   ShiftRA16b_MUSER_Shifter  XLXI_14 (.A(XLXN_36[15:0]), 
+                                     .O(XLXN_38[15:0]));
+   ShiftRA8b_MUSER_Shifter  XLXI_15 (.A(XLXN_31[15:0]), 
+                                    .O(XLXN_12[15:0]));
+   ShiftRA4b_MUSER_Shifter  XLXI_16 (.A(XLXN_23[15:0]), 
+                                    .O(XLXN_28[15:0]));
+   ShiftRA2b_MUSER_Shifter  XLXI_17 (.A(XLXN_27[15:0]), 
+                                    .O(XLXN_25[15:0]));
+   ShiftRA1b_MUSER_Shifter  XLXI_18 (.A(A[15:0]), 
+                                    .O(XLXN_19[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_19 (.D1(A[15:0]), 
+                                 .D2(XLXN_19[15:0]), 
+                                 .S1(B[0]), 
+                                 .O(XLXN_27[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_20 (.D1(XLXN_27[15:0]), 
+                                 .D2(XLXN_25[15:0]), 
+                                 .S1(B[1]), 
+                                 .O(XLXN_23[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_21 (.D1(XLXN_23[15:0]), 
+                                 .D2(XLXN_28[15:0]), 
+                                 .S1(B[2]), 
+                                 .O(XLXN_31[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_22 (.D1(XLXN_31[15:0]), 
+                                 .D2(XLXN_12[15:0]), 
+                                 .S1(B[3]), 
+                                 .O(XLXN_36[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_24 (.D1(XLXN_36[15:0]), 
+                                 .D2(XLXN_38[15:0]), 
+                                 .S1(B[4]), 
+                                 .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module Shiftrl1b_MUSER_Shifter(A, 
+                               O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire XLXN_4;
+   
+   BUF  XLXI_1 (.I(A[0]), 
+               .O(XLXN_4));
+   BUF  XLXI_2 (.I(A[1]), 
+               .O(O[0]));
+   BUF  XLXI_3 (.I(A[2]), 
+               .O(O[1]));
+   BUF  XLXI_4 (.I(A[3]), 
+               .O(O[2]));
+   BUF  XLXI_5 (.I(A[4]), 
+               .O(O[3]));
+   BUF  XLXI_6 (.I(A[5]), 
+               .O(O[4]));
+   BUF  XLXI_7 (.I(A[6]), 
+               .O(O[5]));
+   BUF  XLXI_8 (.I(A[7]), 
+               .O(O[6]));
+   BUF  XLXI_9 (.I(A[8]), 
+               .O(O[7]));
+   BUF  XLXI_10 (.I(A[9]), 
+                .O(O[8]));
+   BUF  XLXI_11 (.I(A[10]), 
+                .O(O[9]));
+   BUF  XLXI_12 (.I(A[11]), 
+                .O(O[10]));
+   BUF  XLXI_13 (.I(A[12]), 
+                .O(O[11]));
+   BUF  XLXI_14 (.I(A[13]), 
+                .O(O[12]));
+   BUF  XLXI_15 (.I(A[14]), 
+                .O(O[13]));
+   BUF  XLXI_16 (.I(A[15]), 
+                .O(O[14]));
+   GND  XLXI_17 (.G(O[15]));
+endmodule
+`timescale 1ns / 1ps
+
+module ShiftRL2b_MUSER_Shifter(A, 
+                               O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_1;
+   
+   Shiftrl1b_MUSER_Shifter  XLXI_1 (.A(A[15:0]), 
+                                   .O(XLXN_1[15:0]));
+   Shiftrl1b_MUSER_Shifter  XLXI_2 (.A(XLXN_1[15:0]), 
+                                   .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module ShiftRL4b_MUSER_Shifter(A, 
+                               O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_2;
+   
+   ShiftRL2b_MUSER_Shifter  XLXI_3 (.A(), 
+                                   .O(XLXN_2[15:0]));
+   ShiftRL2b_MUSER_Shifter  XLXI_4 (.A(XLXN_2[15:0]), 
+                                   .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module shiftRL8b_MUSER_Shifter(A, 
+                               O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_1;
+   
+   ShiftRL4b_MUSER_Shifter  XLXI_1 (.A(A[15:0]), 
+                                   .O(XLXN_1[15:0]));
+   ShiftRL4b_MUSER_Shifter  XLXI_2 (.A(XLXN_1[15:0]), 
+                                   .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module shiftrl16b_MUSER_Shifter(A, 
+                                O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_1;
+   
+   shiftRL8b_MUSER_Shifter  XLXI_1 (.A(A[15:0]), 
+                                   .O(XLXN_1[15:0]));
+   shiftRL8b_MUSER_Shifter  XLXI_2 (.A(XLXN_1[15:0]), 
+                                   .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module ShiftRightL_MUSER_Shifter(A, 
+                                 B, 
+                                 O);
+
+    input [15:0] A;
+    input [15:0] B;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_12;
+   wire [15:0] XLXN_19;
+   wire [15:0] XLXN_23;
+   wire [15:0] XLXN_25;
+   wire [15:0] XLXN_27;
+   wire [15:0] XLXN_28;
+   wire [15:0] XLXN_31;
+   wire [15:0] XLXN_36;
+   wire [15:0] XLXN_38;
+   
+   Shiftrl1b_MUSER_Shifter  XLXI_15 (.A(A[15:0]), 
+                                    .O(XLXN_19[15:0]));
+   ShiftRL2b_MUSER_Shifter  XLXI_17 (.A(XLXN_27[15:0]), 
+                                    .O(XLXN_25[15:0]));
+   ShiftRL4b_MUSER_Shifter  XLXI_18 (.A(XLXN_23[15:0]), 
+                                    .O(XLXN_28[15:0]));
+   shiftRL8b_MUSER_Shifter  XLXI_19 (.A(XLXN_31[15:0]), 
+                                    .O(XLXN_12[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_20 (.D1(XLXN_27[15:0]), 
+                                 .D2(XLXN_25[15:0]), 
+                                 .S1(B[1]), 
+                                 .O(XLXN_23[15:0]));
+   shiftrl16b_MUSER_Shifter  XLXI_21 (.A(XLXN_36[15:0]), 
+                                     .O(XLXN_38[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_22 (.D1(A[15:0]), 
+                                 .D2(XLXN_19[15:0]), 
+                                 .S1(B[0]), 
+                                 .O(XLXN_27[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_24 (.D1(XLXN_23[15:0]), 
+                                 .D2(XLXN_28[15:0]), 
+                                 .S1(B[2]), 
+                                 .O(XLXN_31[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_25 (.D1(XLXN_31[15:0]), 
+                                 .D2(XLXN_12[15:0]), 
+                                 .S1(B[3]), 
+                                 .O(XLXN_36[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_27 (.D1(XLXN_36[15:0]), 
+                                 .D2(XLXN_38[15:0]), 
+                                 .S1(B[4]), 
+                                 .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module shift1b_MUSER_Shifter(A, 
+                             O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   
+   BUF  XLXI_2 (.I(A[0]), 
+               .O(O[1]));
+   BUF  XLXI_3 (.I(A[1]), 
+               .O(O[2]));
+   BUF  XLXI_5 (.I(A[2]), 
+               .O(O[3]));
+   BUF  XLXI_6 (.I(A[3]), 
+               .O(O[4]));
+   BUF  XLXI_7 (.I(A[4]), 
+               .O(O[5]));
+   BUF  XLXI_8 (.I(A[5]), 
+               .O(O[6]));
+   BUF  XLXI_9 (.I(A[6]), 
+               .O(O[7]));
+   BUF  XLXI_10 (.I(A[7]), 
+                .O(O[8]));
+   BUF  XLXI_11 (.I(A[8]), 
+                .O(O[9]));
+   BUF  XLXI_12 (.I(A[9]), 
+                .O(O[10]));
+   BUF  XLXI_13 (.I(A[10]), 
+                .O(O[11]));
+   BUF  XLXI_14 (.I(A[11]), 
+                .O(O[12]));
+   BUF  XLXI_15 (.I(A[12]), 
+                .O(O[13]));
+   BUF  XLXI_16 (.I(A[13]), 
+                .O(O[14]));
+   BUF  XLXI_17 (.I(A[14]), 
+                .O(O[15]));
+   GND  XLXI_19 (.G(O[0]));
+endmodule
+`timescale 1ns / 1ps
+
+module shiftl2b_MUSER_Shifter(A, 
+                              O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_1;
+   
+   shift1b_MUSER_Shifter  XLXI_1 (.A(A[15:0]), 
+                                 .O(XLXN_1[15:0]));
+   shift1b_MUSER_Shifter  XLXI_2 (.A(XLXN_1[15:0]), 
+                                 .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module Shiftl4b_MUSER_Shifter(A, 
+                              O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_1;
+   
+   shiftl2b_MUSER_Shifter  XLXI_1 (.A(A[15:0]), 
+                                  .O(XLXN_1[15:0]));
+   shiftl2b_MUSER_Shifter  XLXI_2 (.A(XLXN_1[15:0]), 
+                                  .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module shiftl8b_MUSER_Shifter(A, 
+                              O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_1;
+   
+   Shiftl4b_MUSER_Shifter  XLXI_1 (.A(A[15:0]), 
+                                  .O(XLXN_1[15:0]));
+   Shiftl4b_MUSER_Shifter  XLXI_2 (.A(XLXN_1[15:0]), 
+                                  .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module Shiftl16b_MUSER_Shifter(A, 
+                               O);
+
+    input [15:0] A;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_1;
+   
+   shiftl8b_MUSER_Shifter  XLXI_1 (.A(A[15:0]), 
+                                  .O(XLXN_1[15:0]));
+   shiftl8b_MUSER_Shifter  XLXI_2 (.A(XLXN_1[15:0]), 
+                                  .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module ShiftLeft_MUSER_Shifter(A, 
+                               B, 
+                               O);
+
+    input [15:0] A;
+    input [15:0] B;
+   output [15:0] O;
+   
+   wire [15:0] XLXN_12;
+   wire [15:0] XLXN_19;
+   wire [15:0] XLXN_23;
+   wire [15:0] XLXN_25;
+   wire [15:0] XLXN_27;
+   wire [15:0] XLXN_28;
+   wire [15:0] XLXN_31;
+   wire [15:0] XLXN_36;
+   wire [15:0] XLXN_38;
+   
+   shift1b_MUSER_Shifter  XLXI_1 (.A(A[15:0]), 
+                                 .O(XLXN_19[15:0]));
+   shiftl2b_MUSER_Shifter  XLXI_3 (.A(XLXN_27[15:0]), 
+                                  .O(XLXN_25[15:0]));
+   Shiftl4b_MUSER_Shifter  XLXI_4 (.A(XLXN_23[15:0]), 
+                                  .O(XLXN_28[15:0]));
+   shiftl8b_MUSER_Shifter  XLXI_5 (.A(XLXN_31[15:0]), 
+                                  .O(XLXN_12[15:0]));
+   Shiftl16b_MUSER_Shifter  XLXI_12 (.A(XLXN_36[15:0]), 
+                                    .O(XLXN_38[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_14 (.D1(A[15:0]), 
+                                 .D2(XLXN_19[15:0]), 
+                                 .S1(B[0]), 
+                                 .O(XLXN_27[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_15 (.D1(XLXN_27[15:0]), 
+                                 .D2(XLXN_25[15:0]), 
+                                 .S1(B[1]), 
+                                 .O(XLXN_23[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_16 (.D1(XLXN_23[15:0]), 
+                                 .D2(XLXN_28[15:0]), 
+                                 .S1(B[2]), 
+                                 .O(XLXN_31[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_17 (.D1(XLXN_31[15:0]), 
+                                 .D2(XLXN_12[15:0]), 
+                                 .S1(B[3]), 
+                                 .O(XLXN_36[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_18 (.D1(XLXN_36[15:0]), 
+                                 .D2(XLXN_38[15:0]), 
+                                 .S1(B[4]), 
+                                 .O(O[15:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module Shifter(A, 
+               B, 
+               O);
+
+    input [15:0] A;
+    input [15:0] B;
+   output [15:0] O;
+   
+   wire [15:0] LeftShift;
+   wire [15:0] RightShift;
+   wire [15:0] RightShiftA;
+   wire [15:0] RightShiftL;
+   wire [15:0] XLXN_14;
+   
+   ShiftLeft_MUSER_Shifter  XLXI_3 (.A(A[15:0]), 
+                                   .B(XLXN_14[15:0]), 
+                                   .O(LeftShift[15:0]));
+   ShiftRightL_MUSER_Shifter  XLXI_8 (.A(A[15:0]), 
+                                     .B(XLXN_14[15:0]), 
+                                     .O(RightShiftL[15:0]));
+   ShiftRightA_MUSER_Shifter  XLXI_9 (.A(A[15:0]), 
+                                     .B(XLXN_14[15:0]), 
+                                     .O(RightShiftA[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_10 (.D1(RightShiftA[15:0]), 
+                                 .D2(RightShiftL[15:0]), 
+                                 .S1(B[5]), 
+                                 .O(RightShift[15:0]));
+   mux2_1_MUSER_Shifter  XLXI_11 (.D1(LeftShift[15:0]), 
+                                 .D2(RightShift[15:0]), 
+                                 .S1(B[6]), 
+                                 .O(O[15:0]));
+   ShiftControlModule_MUSER_Shifter  XLXI_13 (.B(B[15:0]), 
+                                             .Out2(XLXN_14[15:0]));
+endmodule

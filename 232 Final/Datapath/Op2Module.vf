@@ -1,0 +1,82 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 13.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Op2Module.vf
+// /___/   /\     Timestamp : 11/16/2014 23:57:17
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Op2Module.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Op2Module.sch
+//Design Name: Op2Module
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Op2Module(Op, 
+                 Op2);
+
+    input [3:0] Op;
+   output Op2;
+   
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_31;
+   wire XLXN_32;
+   wire XLXN_33;
+   wire XLXN_34;
+   wire XLXN_35;
+   
+   AND3  XLXI_1 (.I0(Op[3]), 
+                .I1(XLXN_9), 
+                .I2(Op[0]), 
+                .O(XLXN_31));
+   AND3  XLXI_2 (.I0(Op[3]), 
+                .I1(Op[2]), 
+                .I2(Op[0]), 
+                .O(XLXN_32));
+   AND4  XLXI_3 (.I0(XLXN_11), 
+                .I1(XLXN_10), 
+                .I2(Op[1]), 
+                .I3(Op[0]), 
+                .O(XLXN_33));
+   AND4  XLXI_4 (.I0(XLXN_13), 
+                .I1(Op[2]), 
+                .I2(XLXN_12), 
+                .I3(Op[0]), 
+                .O(XLXN_34));
+   AND4  XLXI_5 (.I0(Op[3]), 
+                .I1(Op[2]), 
+                .I2(Op[1]), 
+                .I3(XLXN_14), 
+                .O(XLXN_35));
+   INV  XLXI_6 (.I(Op[2]), 
+               .O(XLXN_9));
+   INV  XLXI_7 (.I(Op[2]), 
+               .O(XLXN_10));
+   INV  XLXI_8 (.I(Op[3]), 
+               .O(XLXN_11));
+   INV  XLXI_9 (.I(Op[1]), 
+               .O(XLXN_12));
+   INV  XLXI_10 (.I(Op[3]), 
+                .O(XLXN_13));
+   INV  XLXI_12 (.I(Op[0]), 
+                .O(XLXN_14));
+   OR5  XLXI_13 (.I0(XLXN_35), 
+                .I1(XLXN_34), 
+                .I2(XLXN_33), 
+                .I3(XLXN_32), 
+                .I4(XLXN_31), 
+                .O(Op2));
+endmodule

@@ -1,0 +1,10 @@
+sch2sym -intstyle ise -family spartan3e -refsym ALU16b C:/Users/millerlj/Documents/CSSE232/Datapath/ALU16b.sch C:/Users/millerlj/Documents/CSSE232/Datapath/ALU16b.sym 
+sch2sym -intstyle ise -family spartan3e -refsym ALU16b C:/Users/millerlj/Documents/CSSE232/Datapath/ALU16b.sch C:/Users/millerlj/Documents/CSSE232/Datapath/ALU16b.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog ALU16b_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/ALU16b.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog ALU16b_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/ALU16b.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog ALU16b_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/ALU16b.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog ALU16b_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/ALU16b.sch 
+sch2sym -intstyle ise -family spartan3e -refsym ALU16b C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ALU16b.sch C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ALU16b.sym 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog ALU16b_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ALU16b.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog ALU16b_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ALU16b.sch 
+sch2sym -intstyle ise -family spartan3e -refsym ALU16b C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ALU16b.sch C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ALU16b.sym 

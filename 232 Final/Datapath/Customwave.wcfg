@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/FullDatapath_FullDatapath_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="FullDatapath_FullDatapath_sch_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="34" />
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/writedata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writedata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/IR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/MemOutOfBounds" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemOutOfBounds</obj_property>
+      <obj_property name="ObjectShortName">MemOutOfBounds</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/PCWriteOut" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCWriteOut</obj_property>
+      <obj_property name="ObjectShortName">PCWriteOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/Reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans1[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans2[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans4[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans5[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans6[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans7[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans8[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans8[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans9[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans9[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans10[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans10[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans11" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans11[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans11[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans12" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans12[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans12[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans13" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans13[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans13[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans14" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans14[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans14[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_84/XLXI_5/ans15" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ans15[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ans15[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_94/ASB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ASB[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ASB[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_94/ASA" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ASA</obj_property>
+      <obj_property name="ObjectShortName">ASA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_32/O" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">O[15:0]</obj_property>
+      <obj_property name="ObjectShortName">O[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_89/Addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/DIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DIn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DIn[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_89/DOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DOut[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DOut[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_94/current_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_94/next_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_74/R" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">R[15:0]</obj_property>
+      <obj_property name="ObjectShortName">R[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_74/O" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">O[15:0]</obj_property>
+      <obj_property name="ObjectShortName">O[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_94/IOD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IOD</obj_property>
+      <obj_property name="ObjectShortName">IOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FullDatapath_FullDatapath_sch_tb/UUT/XLXI_32/O" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">O[15:0]</obj_property>
+      <obj_property name="ObjectShortName">O[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

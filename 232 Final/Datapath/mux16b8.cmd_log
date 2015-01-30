@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan3e -verilog mux16b8_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/mux16b8.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog mux16b8_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/mux16b8.sch 
+sch2sym -intstyle ise -family spartan3e -refsym mux16b8 C:/Users/millerlj/Documents/CSSE232/Datapath/mux16b8.sch C:/Users/millerlj/Documents/CSSE232/Datapath/mux16b8.sym 
+sch2sym -intstyle ise -family spartan3e -refsym mux16b8 C:/Users/millerlj/Documents/CSSE232/Datapath/mux16b8.sch C:/Users/millerlj/Documents/CSSE232/Datapath/mux16b8.sym 

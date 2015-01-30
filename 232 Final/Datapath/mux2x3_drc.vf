@@ -1,0 +1,74 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 13.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : mux2x3_drc.vf
+// /___/   /\     Timestamp : 11/17/2014 01:41:27
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog mux2x3_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/mux2x3.sch
+//Design Name: mux2x3
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module M2_1_MXILINX_mux2x3(D0, 
+                           D1, 
+                           S0, 
+                           O);
+
+    input D0;
+    input D1;
+    input S0;
+   output O;
+   
+   wire M0;
+   wire M1;
+   
+   AND2B1  I_36_7 (.I0(S0), 
+                  .I1(D0), 
+                  .O(M0));
+   OR2  I_36_8 (.I0(M1), 
+               .I1(M0), 
+               .O(O));
+   AND2  I_36_9 (.I0(D1), 
+                .I1(S0), 
+                .O(M1));
+endmodule
+`timescale 1ns / 1ps
+
+module mux2x3(D0, 
+              D1, 
+              S0, 
+              O);
+
+    input [2:0] D0;
+    input [2:0] D1;
+    input S0;
+   output [2:0] O;
+   
+   
+   (* HU_SET = "XLXI_1_0" *) 
+   M2_1_MXILINX_mux2x3  XLXI_1 (.D0(D0[0]), 
+                               .D1(D1[0]), 
+                               .S0(S0), 
+                               .O(O[0]));
+   (* HU_SET = "XLXI_4_1" *) 
+   M2_1_MXILINX_mux2x3  XLXI_4 (.D0(D0[1]), 
+                               .D1(D1[1]), 
+                               .S0(S0), 
+                               .O(O[1]));
+   (* HU_SET = "XLXI_5_2" *) 
+   M2_1_MXILINX_mux2x3  XLXI_5 (.D0(D0[2]), 
+                               .D1(D1[2]), 
+                               .S0(S0), 
+                               .O(O[2]));
+endmodule

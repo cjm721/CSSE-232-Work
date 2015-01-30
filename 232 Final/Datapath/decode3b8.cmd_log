@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -verilog decode3b8_drc.vf -w C:/Users/millerlj/Documents/CSSE232/Datapath/decode3b8.sch 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog decode3b8_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/decode3b8.sch 

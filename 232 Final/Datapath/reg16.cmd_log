@@ -1,0 +1,5 @@
+sch2hdl -intstyle ise -family spartan3e -verilog reg16_drc.vf -w C:/Users/millerlj/Documents/CSSE232/reg16/reg16.sch 
+sch2sym -intstyle ise -family spartan3e -refsym reg16 C:/Users/millerlj/Documents/CSSE232/reg16/reg16.sch C:/Users/millerlj/Documents/CSSE232/Datapath/reg16.sym 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog reg16_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/reg16.sch 
+sch2sym -intstyle ise -family spartan3e -refsym reg16 C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/reg16.sch C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/reg16.sym 
+sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog reg16_drc.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/reg16.sch 

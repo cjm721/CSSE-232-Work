@@ -1,0 +1,26 @@
+[Inputs]
+CLK
+Reset
+=Opcode[3:0]=
+[Outputs]
+ALUOv
+ALUOutC
+ASA
+RegWrite
+MemWrite
+IOD
+IRWrite
+PCWrite
+Branch
+BranchNE
+=ALUOp[2:0]=
+=ASB[2:0]=
+=MTD[1:0]=
+=RD[1:0]=
+=PCSrc[1:0]=
+=WriteTo[3:0]=
+=InitVal[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel control
+

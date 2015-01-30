@@ -1,0 +1,84 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ALUControl.v" in library work
+WARNING:HDLCompilers:299 - "ALUControl.v" line 94 Too many digits specified in binary constant
+WARNING:HDLCompilers:299 - "ALUControl.v" line 100 Too many digits specified in binary constant
+WARNING:HDLCompilers:299 - "ALUControl.v" line 106 Too many digits specified in binary constant
+Compiling verilog file "ALUcomp.vf" in library work
+Module <ALUControl> compiled
+Module <ShiftRA1b_MUSER_ALUcomp> compiled
+Module <ShiftRA2b_MUSER_ALUcomp> compiled
+Module <ShiftRA4b_MUSER_ALUcomp> compiled
+Module <ShiftRA8b_MUSER_ALUcomp> compiled
+Module <ShiftRA16b_MUSER_ALUcomp> compiled
+Module <M2_1_MXILINX_ALUcomp> compiled
+Module <ShiftRightA_MUSER_ALUcomp> compiled
+Module <shift1b_MUSER_ALUcomp> compiled
+Module <shiftl2b_MUSER_ALUcomp> compiled
+Module <Shiftl4b_MUSER_ALUcomp> compiled
+Module <ShiftRL4b_MUSER_ALUcomp> compiled
+Module <shiftRL8b_MUSER_ALUcomp> compiled
+Module <shiftrl16b_MUSER_ALUcomp> compiled
+Module <Shiftrl1b_MUSER_ALUcomp> compiled
+Module <ShiftRL2b_MUSER_ALUcomp> compiled
+Module <ShiftRightL_MUSER_ALUcomp> compiled
+Module <shiftl8b_MUSER_ALUcomp> compiled
+Module <Shiftl16b_MUSER_ALUcomp> compiled
+Module <ShiftLeft_MUSER_ALUcomp> compiled
+Module <Shifter_MUSER_ALUcomp> compiled
+Module <Add1b_MUSER_ALUcomp> compiled
+Module <M2_1E_MXILINX_ALUcomp> compiled
+Module <M4_1E_MXILINX_ALUcomp> compiled
+Module <ALU1b_MUSER_ALUcomp> compiled
+Module <ALU16b_MUSER_ALUcomp> compiled
+Module <Op3Module_MUSER_ALUcomp> compiled
+Module <Op2Module_MUSER_ALUcomp> compiled
+Module <OR7_MXILINX_ALUcomp> compiled
+Module <Op1Module_MUSER_ALUcomp> compiled
+Module <ALUControl_MUSER_ALUcomp> compiled
+Module <FD16CE_MXILINX_ALUcomp> compiled
+Module <MulticycleALU_MUSER_ALUcomp> compiled
+Compiling verilog file "Memory.vf" in library work
+Module <ALUcomp> compiled
+Module <OR6_MXILINX_Memory> compiled
+Compiling verilog file "Op1Module.vf" in library work
+Module <Memory> compiled
+Module <OR7_MXILINX_Op1Module> compiled
+Compiling verilog file "Op2Module.vf" in library work
+Module <Op1Module> compiled
+Compiling verilog file "Op3Module.vf" in library work
+Module <Op2Module> compiled
+Module <Op3Module> compiled
+No errors in compilation
+Analysis of file <"ALUControl.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.29 secs
+ 
+--> 
+
+Total memory usage is 213428 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,6 @@
+verilog work "Control2.v"
+verilog work "ALUcomp.vf"
+verilog work "Memory.vf"
+verilog work "Op1Module.vf"
+verilog work "Op2Module.vf"
+verilog work "Op3Module.vf"

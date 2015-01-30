@@ -1,0 +1,158 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 13.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Op1Module.vf
+// /___/   /\     Timestamp : 11/16/2014 23:57:19
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/ipcore_dir -intstyle ise -family spartan3e -verilog C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Op1Module.vf -w C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/Op1Module.sch
+//Design Name: Op1Module
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module OR7_MXILINX_Op1Module(I0, 
+                             I1, 
+                             I2, 
+                             I3, 
+                             I4, 
+                             I5, 
+                             I6, 
+                             O);
+
+    input I0;
+    input I1;
+    input I2;
+    input I3;
+    input I4;
+    input I5;
+    input I6;
+   output O;
+   
+   wire I36;
+   wire O_DUMMY;
+   
+   assign O = O_DUMMY;
+   OR4  I_36_89 (.I0(I3), 
+                .I1(I4), 
+                .I2(I5), 
+                .I3(I6), 
+                .O(I36));
+   OR4  I_36_90 (.I0(I0), 
+                .I1(I1), 
+                .I2(I2), 
+                .I3(I36), 
+                .O(O_DUMMY));
+   (* RLOC = "X0Y0" *) 
+   FMAP  I_36_110 (.I1(I3), 
+                  .I2(I4), 
+                  .I3(I5), 
+                  .I4(I6), 
+                  .O(I36));
+   (* RLOC = "X0Y0" *) 
+   FMAP  I_36_111 (.I1(I0), 
+                  .I2(I1), 
+                  .I3(I2), 
+                  .I4(I36), 
+                  .O(O_DUMMY));
+endmodule
+`timescale 1ns / 1ps
+
+module Op1Module(Op, 
+                 Op1);
+
+    input [3:0] Op;
+   output Op1;
+   
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_12;
+   wire XLXN_45;
+   wire XLXN_46;
+   wire XLXN_47;
+   wire XLXN_48;
+   wire XLXN_49;
+   wire XLXN_50;
+   wire XLXN_51;
+   wire XLXN_52;
+   wire XLXN_53;
+   wire XLXN_54;
+   wire XLXN_55;
+   wire XLXN_56;
+   
+   AND2  XLXI_1 (.I0(XLXN_46), 
+                .I1(XLXN_45), 
+                .O(XLXN_6));
+   AND2  XLXI_2 (.I0(Op[1]), 
+                .I1(Op[0]), 
+                .O(XLXN_7));
+   AND3  XLXI_3 (.I0(Op[3]), 
+                .I1(XLXN_48), 
+                .I2(XLXN_47), 
+                .O(XLXN_8));
+   AND3  XLXI_4 (.I0(Op[2]), 
+                .I1(XLXN_49), 
+                .I2(Op[0]), 
+                .O(XLXN_9));
+   AND4  XLXI_5 (.I0(XLXN_52), 
+                .I1(XLXN_51), 
+                .I2(XLXN_50), 
+                .I3(Op[0]), 
+                .O(XLXN_10));
+   AND4  XLXI_6 (.I0(XLXN_54), 
+                .I1(Op[2]), 
+                .I2(Op[1]), 
+                .I3(XLXN_53), 
+                .O(XLXN_11));
+   AND4  XLXI_7 (.I0(Op[3]), 
+                .I1(Op[2]), 
+                .I2(XLXN_56), 
+                .I3(XLXN_55), 
+                .O(XLXN_12));
+   (* HU_SET = "XLXI_22_116" *) 
+   OR7_MXILINX_Op1Module  XLXI_22 (.I0(XLXN_12), 
+                                  .I1(XLXN_11), 
+                                  .I2(XLXN_10), 
+                                  .I3(XLXN_9), 
+                                  .I4(XLXN_8), 
+                                  .I5(XLXN_7), 
+                                  .I6(XLXN_6), 
+                                  .O(Op1));
+   INV  XLXI_23 (.I(Op[2]), 
+                .O(XLXN_45));
+   INV  XLXI_24 (.I(Op[3]), 
+                .O(XLXN_46));
+   INV  XLXI_25 (.I(Op[0]), 
+                .O(XLXN_47));
+   INV  XLXI_26 (.I(Op[2]), 
+                .O(XLXN_48));
+   INV  XLXI_27 (.I(Op[1]), 
+                .O(XLXN_49));
+   INV  XLXI_28 (.I(Op[1]), 
+                .O(XLXN_50));
+   INV  XLXI_29 (.I(Op[2]), 
+                .O(XLXN_51));
+   INV  XLXI_30 (.I(Op[3]), 
+                .O(XLXN_52));
+   INV  XLXI_31 (.I(Op[0]), 
+                .O(XLXN_53));
+   INV  XLXI_32 (.I(Op[3]), 
+                .O(XLXN_54));
+   INV  XLXI_33 (.I(Op[0]), 
+                .O(XLXN_55));
+   INV  XLXI_34 (.I(Op[1]), 
+                .O(XLXN_56));
+endmodule

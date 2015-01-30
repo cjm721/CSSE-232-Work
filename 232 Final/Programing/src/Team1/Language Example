@@ -1,0 +1,12 @@
+// Example Code File
+
+Function GCD a b
+Label TestLabel
+	If a == b
+		Goto TestLabel
+	EndIf
+	
+	If a != b
+		Call GCD a b
+	End If
+End

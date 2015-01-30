@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/millerlj/Documents/CSSE232/1415a-csse232-benshorm-millerc5-millerlj-miskowbs/Datapath/xst"
+elaborate
+-ifn ALUControl.prj
+-ifmt mixed
